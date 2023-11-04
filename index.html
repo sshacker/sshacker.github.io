@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Top Tech Solution</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family:Georgia, 'Times New Roman', Times, serif}
+
+        body, html {
+        height: 100%;
+        line-height: 1.8;
+        }
+
+        /* Full height image header */
+        .bgimg-1 {
+        background-position: center;
+        background-size: cover;
+        background-image: url("images/Business-Process-Automation.jpg");
+        min-height: 100%;
+        }
+
+        .w3-bar .w3-button {
+        padding: 16px;
+        }
+
+        /* Customize CSS */
+        .tts-nav-items-font {
+        font-size: 25px;
+        }
+
+        .tts-nav-logo-text {
+        font-size: 25px;
+        font-weight: bold;
+        }
+
+        .w3-card-equal-height {
+          display: flex;
+          flex-direction: column;
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<nav class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button tts-nav-logo-text">Top Tech Solution</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#our-products" class="w3-bar-item w3-button tts-nav-items-font">OUR PRODUCTS</a>
+      <a href="#why-our-products" class="w3-bar-item w3-button tts-nav-items-font">WHY OUR PRODUCTS</a>
+      <a href="#about" class="w3-bar-item w3-button tts-nav-items-font">ABOUT US</a>
+      <a href="#contact" class="w3-bar-item w3-button tts-nav-items-font">CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</nav>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close</a>
+  <a href="#our-products" onclick="w3_close()" class="w3-bar-item w3-button">OUR PRODUCTS</a>
+  <a href="#why-our-products" onclick="w3_close()" class="w3-bar-item w3-button">WHY OUR PRODUCTS</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Automate And Grow Your Business</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Automate And Grow Your Business</span><br>
+    <span class="w3-large">Unlock your business potential with our software and streamlining business processes.</span>
+    <p><a href="#contact" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Let's start today</a></p>
+  </div>
+</header>
+
+<!-- OUR PRODUCTS Section -->
+<section id="our-products">
+  <div class="w3-container" style="padding:100px 20px">
+    <h3 class="w3-center"><u>SOME OF OUR PRODUCTS</u></h3>
+    <p class="w3-center w3-large">Here are some of our releted products and many more...</p>
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-card" style="padding: 2% 0;">
+      <div class="w3-row-padding w3-center" style="margin-top:px;">
+        <div class="w3-quarter" style="margin: 5% 0;">
+          <i class="fa fa-gears w3-margin-bottom w3-jumbo w3-center"></i>
+          <p><a class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Inventory Management</a></p>
+          <p><strong>Effortless Inventory Control:</strong> Streamline your stock management with our solution. Stay updated in real time, optimize stock levels, and eliminate overstocking or stockouts.</p>
+          <p><strong>Productivity:</strong> Our software simplifies tasks like product tracking and order fulfillment, saving you time and reducing manual errors.</p>
+          <p><strong>Data-Driven Insights:</strong> Make informed decisions with our comprehensive reports and analytics, providing you with valuable insights to improve your inventory strategies.</p>
+        </div>
+        <div class="w3-quarter" style="margin: 5% 0;">
+          <i class="fa fa-users w3-margin-bottom w3-jumbo"></i>
+          <p><a class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">User Management</a></p>
+          <p><strong>Secure User Access:</strong> Protect your data and systems with advanced user authentication and role-based access control, ensuring only authorized personnel have access.</p>
+          <p><strong>Simplified User Administration:</strong> Easily add, modify, or remove user accounts with our intuitive interface, reducing the administrative burden on your team.</p>
+          <p><strong>Activity Tracking:</strong> Monitor user activity with detailed logs, enhancing security and accountability within your organization.</p>
+        </div>
+        <div class="w3-quarter" style="margin: 5% 0;">
+          <i class="fa-solid fa-file-pen w3-margin-bottom w3-jumbo"></i>
+          <p><a class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Billing System</a></p>
+          <p><strong>Seamless Invoicing:</strong> Generate professional invoices effortlessly and accept payments through multiple gateways, improving cash flow and reducing billing errors.</p>
+          <p><strong>Customizable Billing:</strong> Tailor your billing system to your business needs, accommodating one-time payments, subscriptions, or recurring charges.</p>
+          <p><strong>Automated Billing:</strong> Save time and resources with our automated billing processes, ensuring timely payments and reducing late fees.</p> 
+        </div>
+        <div class="w3-quarter" style="margin: 5% 0;">
+          <i class="fa-solid fa-book-bookmark w3-margin-bottom w3-jumbo"></i>
+          <p><a class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Account Management</a></p>
+          <p><strong>Comprehensive Account Management:</strong> Our solution provides complete control over your financial accounts, enabling you to track expenses, income, and financial health.</p>
+          <p><strong>Reports and Analysis:</strong> Gain insights into your financial performance with detailed reports and charts, empowering you to make strategic financial decisions.</p>
+          <p><strong>Tax and Compliance:</strong> Stay compliant with tax regulations and easily prepare financial data for tax filings, saving you time and potential penalties.</p>
+        </div>
+      </div>
+      <div style="padding: 0% 5%;">
+        <p><button class="w3-button w3-light-grey w3-block">And more can be customizable to your requirements...</button></p>
+      </div>
+    </div>
+    </div>
+  </div>  
+</section>
+
+<!-- WHY OUR PRODUCTS Section -->
+<section id="why-our-products">
+  <div class="w3-container" style="padding:100px 20px">
+    <div class="w3-row-padding">
+        <h3 class="w3-center"><u>WHY OUR PRODUCTS</u></h3>
+        <p class="w3-center w3-large">Because we are intended to deliver our best.</p>
+        <div class="w3-row-padding" style="margin-top:64px">
+          <div class="w3-card" style="padding: 5% 5%;">
+            <div style="text-align: left; margin: 0 5%;">
+              <p><strong>1. User-Friendly Interface:</strong> Our software boasts an intuitive and user-friendly interface. Your team can quickly learn and utilize our products with minimal training, increasing productivity from day one.</p>
+              <p><strong>2. Cost-Effective Solutions:</strong> We understand the importance of managing costs. Our pricing plans are designed to be cost-effective, allowing you to achieve significant returns on your investment.</p>
+              <p><strong>3. Reliable Performance:</strong> "Experience peace of mind with our software's consistent and reliable performance. Our products are designed to operate seamlessly, ensuring your business processes run smoothly.</p>
+              <p><strong>4. Cutting-Edge Technology:</strong> We are committed to staying at the forefront of technology. Our software incorporates the latest advancements to ensure your business operates efficiently and competitively.</p>
+              <p><strong>5. Security First:</strong> We prioritize your data security. Our products feature robust security measures, including encryption, user authentication, and regular updates to safeguard your sensitive information.</p>
+              <p><strong>6. Scalability and Customization:</strong> Adapt to your business's evolving needs effortlessly. Our solutions are highly scalable, allowing you to grow without hindrance. Plus, they are customizable to fit your unique requirements.</p>
+              <p><strong>7. Continuous Improvement:</strong> We don't stop at the initial sale. Our commitment to your business includes continuous updates and improvements to keep your software up-to-date and in line with industry standards.</p>
+              <p><strong>8. Instant Support:</strong> Count on our dedicated support team for assistance whenever you need it. We offer responsive customer support to address your questions, concerns, and technical issues promptly.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT US Section -->
+<section id="about">
+  <div class="w3-container" style="padding:100px 20px">
+    <h3 class="w3-center"><u>ABOUT US</u></h3>
+    <p class="w3-center w3-large">The ones who help you to grow your business</p>
+      <div class="w3-row-padding" style="margin-top:64px">
+        <div class="w3-card" style="padding: 20px; text-align: center;">
+          <img src="images/ss_tts_picture.jpeg" alt="John" style="width: 300px; height: 300px; border-radius: 50%; display: block; margin: 0 auto;">
+          <div class="w3-container">
+            <h2>SHIVAM SONKAR</h2>
+            <h6>(Software Engineer working for <a href="https://sunnetsoftware.com/" target="_blank"><i>Sun-Net Inc</i></a> a USA product based company)</h6>
+            <div style="text-align: left; padding: 2% 10%;">
+              <p>I am Shivam Sonkar, an experienced software developer with a strong background in Java and a passion for crafting innovative solutions. With a track record of developing microservices-based applications, creating secure and user-friendly software, and specializing in areas such as inventory management, user access control, and billing systems, I am dedicated to helping businesses streamline their operations and thrive in the digital age.</p>
+              <p>My journey as a developer has led me to create personal projects like a secure digital diary system in C Language, a real-time Android chat app using Google Firebase, and a voice-activated virtual assistant powered by Python and AI. These projects reflect my commitment to learning and pushing the boundaries of technology.</p>
+              <p>I am eager to bring this expertise and innovation to local businesses in the carpet, medical, restaurant, grocery, and other sectors, offering tailored solutions to drive their growth and success. Whether you need to manage inventory, control user access, or streamline your billing processes, I am here to provide you with high-quality software products that meet your unique needs.</p>
+              <p>My goal is to leverage my expertise to help local businesses in the carpet, medical, restaurant, grocery store, and other sectors by providing innovative solutions for their inventory management, user access control, billing systems, and more. With a commitment to excellence and a deep understanding of the tech landscape, I am here to simplify your software needs, enhance your operational efficiency, and drive growth. Let's embark on a journey of digital transformation together.</p>
+              <p>Let's work together to transform your business with cutting-edge technology and efficient solutions.</p>
+              <br><br>
+              <a href="https://github.com/sshacker" target="_blank"><button class="w3-button w3-light-grey w3-block"><i class="fa-brands fa-github"></i> GitHub</button></a><br>
+              <a href="https://www.linkedin.com/in/shivam-sonkar-617a43186/" target="_blank"><button class="w3-button w3-light-grey w3-block"><i class="fa-brands fa-linkedin"></i> LinkedIn</button></a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>  
+</section>
+
+<!-- CONTACT US Section -->
+<section id="contact">
+  <div class="w3-container" style="padding:100px 20px">
+    <h3 class="w3-center"><u>CONTACT US</u></h3>
+    <p class="w3-center w3-large">Feel free to reach out to us for automate and grow your business using mordern age technology</p>
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-card" style="padding: 5% 10%;">
+          <h6><i class="fa-solid fa-paper-plane"></i><strong> Email:</strong> <a href="mailto:shivamsonkar260@gmail.com"> shivamsonkar260@gmail.com</a></h6>
+          <h6><i class="fa-solid fa-phone-volume"></i><strong> Mobile:</strong> <a href="tel:+918115043815"> +91 8115043815</a></h6>
+          <h6><i class="fa-solid fa-location-crosshairs"></i><strong> Location:</strong> Bhadohi, Uttar Pradesh, India</h6>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <p>Powered by <a href="" title="TopTechSolution" target="_blank" class="w3-hover-text-green" style="text-decoration: none;">Top Tech Solution</a></p>
+</footer>
+ 
+<script>
+  // Modal Image Gallery
+  function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }
+
+  // Toggle between showing and hiding the sidebar when clicking the menu icon
+  var mySidebar = document.getElementById("mySidebar");
+
+  function w3_open() {
+    if (mySidebar.style.display === 'block') {
+      mySidebar.style.display = 'none';
+    } else {
+      mySidebar.style.display = 'block';
+    }
+  }
+
+  // Close the sidebar with the close button
+  function w3_close() {
+      mySidebar.style.display = "none";
+  }
+</script>
+
+</body>
+</html>
