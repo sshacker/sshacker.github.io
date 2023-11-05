@@ -1,0 +1,33 @@
+body,h1,h2,h3,h4,h5,h6 {font-family:Georgia, 'Times New Roman', Times, serif}
+
+body, html {
+height: 100%;
+line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+background-position: center;
+background-size: cover;
+background-image: url("images/tts_business-process-automation.jpg");
+min-height: 100%;
+}
+
+.w3-bar .w3-button {
+padding: 16px;
+}
+
+/* Customize CSS */
+.tts-nav-items-font {
+font-size: 25px;
+}
+
+.tts-nav-logo-text {
+font-size: 25px;
+font-weight: bold;
+}
+
+.w3-card-equal-height {
+    display: flex;
+    flex-direction: column;
+}
